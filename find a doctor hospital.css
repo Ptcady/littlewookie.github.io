@@ -1,0 +1,477 @@
+header{    background-color: white;
+padding-top: px;}
+body {
+    margin: 0
+}
+.logopic{ width: 50px;
+position: relative;
+bottom: 8px;}
+.hospitalname{
+position: relative;
+    top: 34px;
+    left: 50px;
+}
+.mainpic{ width: 100%;
+    height: auto;
+    background-color: aqua;
+    margin-bottom: -10px;
+}
+.main{
+    flex: 100%;
+}
+.donate{
+    float: right;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-right: 25px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10%;
+}
+.main-nav{
+background-color:white;
+display: flex;
+}
+.main-nav a
+{
+color: black;
+padding: 14px 20px;
+text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+}
+ul{
+    background-color:;
+display: flex;
+}
+li{
+    color: black;
+padding: 14px 20px;
+text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+    list-style-type: none;
+   
+}
+.main-nav a:hover {
+    color: #0078bf
+}
+#menu-icon {
+	display: none;
+	width: 20px;
+	height: 20px;
+	background: #CCC url(menu-alt-512.png) center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat
+
+}
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.buttonthing{
+    width: 30%
+}
+.centeredtext{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+form{
+    width: 80%;
+padding: 1px;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    display: inline;
+    width: 0px;
+    text-align: right
+}
+input, textarea {
+/* To make sure that all text fields have the same font settings By default,
+textareas have a monospace font */
+font: 20px sans-serif;
+/* To give the same size to all text fields */
+width: 500px;
+box-sizing: border-box; /* To harmonize the look & feel of text field border
+*/
+border: 1px solid #999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+input:focus, textarea:focus {
+/* To give a little highlight on active elements */
+border-color: #000;
+}
+textarea {
+/* To properly align multiline text fields with their labels */
+vertical-align: top;
+/* To give enough room to type some text */
+height: 100px;
+    margin-top: 10px;
+    width: 100%;
+}
+.Gender{
+    width: 100%;
+    text-align: left
+    
+}
+.formstuffsubject{
+    margin-top: 15px;
+}
+.formstuffphone{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.question{
+    margin-top: 30px;
+}
+.formmain{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.radiobutton, .radiobutton2, .radiobutton3{
+    width: 10%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+.radiobutton2{
+    margin-left: -10px
+}
+.radiobutton3{
+    margin-left: -10px;
+}
+.formbutton{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: none;
+    background-color:darkblue;
+    color: white;
+    font-size: 15px; 
+}
+.maintext{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px
+}
+.callbox{
+    width: 100%;
+    height: 75px;
+    background-color: #C7C7C7;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 737px;
+}
+.calltext{
+    position: relative;
+    top: 10px;
+    font-family: Roboto;
+}
+.calltext2{
+    position: relative;
+    top: 15px;
+}
+.logoboxes{
+    width: 100%;
+    height: 50px;
+    background-color: #BDBDBD;
+}
+.logobox1{
+    margin-left: 700px;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+  
+    float: left;
+}
+.logobox2{
+    margin-top: 10px;
+     width: 25px;
+    height: 25px;
+ 
+    float: left;
+}
+.logobox3{
+    margin-left: 50px;
+    margin-top: 10px;
+     width: 25px;
+    height: 25px;
+ 
+    float: left;
+}
+.logo1{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 3px;
+}
+.logo2{
+      width: 40px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+}
+.logo3{
+       width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 3px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: dimgrey;
+    text-align: center;
+    font-family: Roboto;
+    padding-top: 10px;
+}
+.finddoctorback{
+    background-image: url(FindADoctor-Hero.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+   background-size: cover;
+    position: absolute;
+}
+.overlay{
+    max-width: 600px;
+    margin-bottom: 70px;
+    padding-bottom: 36px;
+    margin-top: 9rem;
+padding-left: 48px;
+padding-top: 36px;
+background-color: white;
+}
+.fluidcontaner{
+    box-sizing: border-box;
+color: rgb(33, 37, 41);
+font-family: open-sans, Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0px;
+line-height: 27px;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 48px;
+padding-right: 48px;
+text-align: left;
+width: 1519.2px;
+word-spacing: 0px;
+}
+.wildgate{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+}
+.location, .formstuffphone, .formmain, .formain {
+    display: block;
+    width:
+}
+.formain1{
+    width: 100%;
+    text-align: left;
+    display: block;
+}
+.minorbox{
+    width: 97.4%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 40px;
+    font-family: Roboto;
+}
+@media (max-width: 768px){
+    .radiobutton, .radiobutton2, .radiobutton3{
+        width: 100%;
+    }
+    .minorbox{
+        width: 100%;
+        overflow: hidden;
+        padding-left: 0px;
+        text-align: center
+    }
+    .formbutton{
+        width: 100%
+    }
+    .buttonthing{
+        width: 60%
+    }
+    form{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    footer{
+        height: 70px;
+    }
+    #menu-icon {
+float: right;
+		display:inline-block;
+        position: absolute;
+        bottom: 480px;
+        color: white;
+        right: 20px;
+        top: 20px;
+	}
+    .main-nav ul, .main-nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+        color: black;
+        z-index: 1;
+
+	}
+    .main-nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+        float: right;
+
+	}
+
+	.main-nav:hover ul {
+
+		display: block;
+
+	}
+    .main-nav a{
+        color: black;
+    }
+    .main-nav a.icon{
+        float: right;
+        display: block;
+    }
+    .main-nav{
+        float: right
+    }
+    .callbox{
+  width: 100%;
+        margin-top: 715px;
+    }
+    .logobox1, .logobox2, .logobox3{
+        float: none;
+        display: block;
+        width: 0%;
+    }
+    .logoboxes{
+        width: 100%;
+    }
+    .logobox1
+    {
+    margin-left: 100px;
+        margin-top: 0px;
+    }
+    .logobox3{
+        position: relative;
+        bottom: 70px;
+        margin-left: 205px;
+        margin-right: 0px;
+    }
+    .logobox2{
+        position: relative;
+        bottom: 35px;
+        margin-left: 130px;
+    }
+    .logo1, .logo2, .logo3{
+        margin-top: 10px;
+        margin-left: 30px
+    }
+    .radiobutton, .radiobutton2, .radiobutton3{
+        width: 10%;
+        font-size: 5px;
+        margin-left: 0px
+    }
+    .Gender{
+        font-size: 15px;
+    }
+    .radiobutton2, .radiobutton3{
+        margin-left: 0px;
+    }
+    .formmain{
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .location, .formstuffphone{
+        width: 100%;
+        font-size: 15px
+    }
+    .formstuffphone{
+        margin-bottom: 10px;
+        overflow: hidden;
+        margin-right: 0px;
+    }
+    .centeredtext{
+        top: 300px;
+    }
+     .hospitalname{
+        width: 80%;
+        position: relative;
+        left: 0px;
+        margin-left: 50px;
+    }
+    .donate{
+        display: none
+    }
+    .finddoctorback{
+        left: auto;
+        position: absolute;
+        top: auto;
+        width: 100%;
+        background-size: cover;
+        height: 160px;
+    }
+    .overlay{
+        margin: 0;
+        padding-right: 0;
+        padding-left: 0;
+        max-width: 40rem;
+        padding: 2rem 48px;
+        margin-top: 170px;
+    }
+    .fluidcontaner{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left: 0px
+    }
+    .wildgate{
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 1250px;
+    }
+}

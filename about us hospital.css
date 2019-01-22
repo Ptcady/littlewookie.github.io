@@ -1,0 +1,336 @@
+header{    background-color: white;
+padding-top: px;}
+body {
+    margin: 0
+}
+.logopic{ width: 50px;
+position: relative;
+bottom: 8px;}
+.hospitalname{
+position: relative;
+    top: 34px;
+    left: 50px;
+}
+.mainpic{ width: 100%;
+    height: auto;
+    background-color: aqua;
+    opacity: 0.9;
+}
+.main{
+    flex: 100%;
+}
+.donate{
+    float: right;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin-right: 25px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10%;
+}
+.main-nav{
+background-color:white;
+display: flex;
+}
+.main-nav a
+{
+color: black;
+padding: 14px 20px;
+text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+}
+ul{
+    background-color:;
+display: flex;
+}
+li{
+    color: black;
+padding: 14px 20px;
+text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: Roboto;
+    list-style-type: none;
+   
+}
+.main-nav a:hover {
+    color: #0078bf
+}
+#menu-icon {
+	display: none;
+	width: 20px;
+	height: 20px;
+	background: #CCC url(menu-alt-512.png) center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat
+
+}
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.centeredtext{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+}
+.mainpage{
+    width: 60%;
+    margin-left: 20px;
+    float: left;
+}
+.heading1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.secondimg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+}
+.sidenav {
+ height: auto;
+  width: 300px; /* Set the width of the sidebar */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+    float: right;
+    text-align: left;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+    border-bottom: 1px solid#CCC;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+p{
+    font-family: Roboto
+}
+.founded{
+    margin-bottom: 15px;
+}
+.foundation, .cardiatric{
+    margin-bottom: 15px
+}
+.john{
+    margin-bottom: 10px
+}
+.foundation, .cardiatric, .headong1{
+    font-family: Roboto;
+}
+.callbox{
+    width: 100%;
+    height: 75px;
+    background-color: #C7C7C7;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 1570px;
+}
+.calltext{
+    position: relative;
+    top: 10px;
+    font-family: Roboto;
+}
+.calltext2{
+    position: relative;
+    top: 15px;
+}
+.logoboxes{
+    width: 100%;
+    height: 50px;
+    background-color: #BDBDBD;
+}
+.logobox1{
+    margin-left: 700px;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+  
+    float: left;
+}
+.logobox2{
+    margin-top: 10px;
+     width: 25px;
+    height: 25px;
+ 
+    float: left;
+}
+.logobox3{
+    margin-left: 50px;
+    margin-top: 10px;
+     width: 25px;
+    height: 25px;
+ 
+    float: left;
+}
+.logo1{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 3px;
+}
+.logo2{
+      width: 40px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+}
+.logo3{
+       width: 35px;
+    height: 35px;
+    position: relative;
+    bottom: 3px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: dimgrey;
+    text-align: center;
+    font-family: Roboto;
+    padding-top: 10px;
+}
+.minorbox{
+    width: 97.4%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: left;
+    padding-left: 40px;
+    font-family: Roboto;
+}
+@media (max-width: 768px){
+    #menu-icon {
+float: right;
+		display:inline-block;
+        position: absolute;
+        bottom: 480px;
+        color: white;
+        right: 20px;
+        top: 20px;
+	}
+    .main-nav ul, .main-nav:active ul { 
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+        color: black;
+        z-index: 1;
+
+	}
+    .main-nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+        float: right;
+
+	}
+
+	.main-nav:hover ul {
+
+		display: block;
+
+	}
+    .main-nav a{
+        color: black;
+    }
+    .main-nav a.icon{
+        float: right;
+        display: block;
+    }
+    .main-nav{
+        float: right
+    }
+    .callbox{
+  width: 100%;
+        margin-top: 1500px
+    }
+    .logobox1, .logobox2, .logobox3{
+        float: none;
+        display: block;
+        width: 0%;
+    }
+    .logoboxes{
+        width: 100%;
+    }
+    .logobox1
+    {
+    margin-left: 100px;
+        margin-top: 0px;
+    }
+    .logobox3{
+        position: relative;
+        bottom: 70px;
+        margin-left: 205px;
+        margin-right: 0px;
+        
+    }
+    .logobox2{
+        position: relative;
+        bottom: 35px;
+        margin-left: 130px;
+    }
+    .logo1, .logo2, .logo3{
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+     footer{
+        height: 70px;
+         text-align: center;
+         margin: auto;
+    }
+    .mainpage{
+      width: 94%  
+    }
+    .sidenav{
+        width: 100%
+    }
+    .centeredtext{
+        top: 110px;
+    }
+     .hospitalname{
+        width: 80%;
+        position: relative;
+        left: 0px;
+        margin-left: 50px;
+    }
+    .donate{
+        display: none
+    }
+    .minorbox{
+        padding-left: 0px;
+        width: 100%;
+        text-align: center
+    }
+}
