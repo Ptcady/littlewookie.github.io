@@ -496,10 +496,6 @@ width: 100%;
    width: 100%;
         float: none
     }
-    .meetdoctor{ 
-        text-align: center;
-        width: 100%;
-    }
     .callbox, .logobox{
         text-align: center;
         width: 50%;
@@ -555,9 +551,8 @@ width: 100%;
         margin-top: 80px;
     }
     .meetdoctor{
-        text-align: left;
-   width: 40%;
-    margin-left: 70px;
+        text-align: center;
+   width: 100%;
     }
     .largebox4{
    width: 100%;
@@ -574,9 +569,8 @@ width: 100%;
         margin-left: 40px;
     }
     .hospitalnews{
-        text-align: left;
-        margin-left: 100px;
-        width: 30%
+        text-align: center;
+        width: 100%;
     }
     .patientbox2{
         margin-top: 0px;
